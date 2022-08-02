@@ -15,47 +15,6 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-	box-sizing: inherit;
-}
-
-/* Стили для обнуления верхних отступов у элементов */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	margin: 0;
-}
-/* Класс для обнуления базовых свойств у списков (ul) */
-.list, .site-nav, .contacts, .portfolio__filter, .gallery, 
-.social, .subscribe__form, .adress__list, .feature__list, 
-.about__card, .team__list, .clients__list {
-	list-style: none;
-	padding-left: 0;
-	margin: 0;
-}
-/* Класс для обнуления базовых свойств у ссылок */
-.link, .site-nav__link, .contacts__link, .gallery__link, 
-.address__map, .address__contact {
-	text-decoration: none;
-	color: inherit;
-}
-/* Свойства для корректного отображения картинок */
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
-/* Свойства для обнуления курсива у address */
-address {
-	font-style: normal;
-}
-
 body {
 color: var(--primery-text-color);
 font-family: 'Roboto', sans-serif;
